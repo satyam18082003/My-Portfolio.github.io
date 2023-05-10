@@ -734,34 +734,36 @@
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form action="https://formspree.io/f/xwkjzeza" class="contact__form grid" method="POST">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
-                            <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
+                            <label for="Form_Name" class="contact__label">Name</label>
+                            <input type="text" class="contact__input" name="Form_Name">
                         </div>
 
                         <div class="contact__content">
-                            <label for="" class="contact__label">E-mail</label>
-                            <input type="email" class="contact__input">
+                            <label for="Form_Email" class="contact__label">E-mail</label>
+                            <input type="email" class="contact__input" name="Form_Email">
                         </div>
                     </div>
 
                     <div class="contact__content">
-                        <label for="" class="contact__label">Subject</label>
-                        <input type="text" class="contact__input">
+                        <label for="Form_Sub" class="contact__label">Subject</label>
+                        <input type="text" class="contact__input" name="Form_Sub">
                     </div>
 
                     <div class="contact__content">
-                        <label for="" class="contact__label">Description</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <label for="Form_Des" class="contact__label">Description</label>
+                        <textarea name="Form_Des" id="" cols="0" rows="7" class="contact__input"></textarea>
                     </div>
 
                     <div>
-                        <a href="#" class="button button--flex">
+                        <!-- <a href="#" class="button button--flex">
                             Send message
                             <i class="uil uil-message button__icon"></i>
-                        </a>
+                        </a> -->
+                        <button type="submit" class="button button--flex"><b>Send Message</b><i class="uil uil-message button__icon"></i></button>
+                        
                     </div>
                 </form>
             </div>
